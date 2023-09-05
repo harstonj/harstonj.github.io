@@ -1,0 +1,589 @@
+@charset "utf-8";
+/* Global Styles */
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+	width: 92%;
+	max-width: 960px;
+	padding-left: 2.275%;
+	padding-right: 2.275%;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-color: #2f2f2f;
+}
+/* logo bar */
+logobar   {
+	padding-left: auto;
+	padding-top: 10px;
+	padding-right: auto;
+	padding-bottom: 10px;
+
+}
+.container {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	position: sticky;
+	top: 0;
+	background-color: #2f2f2f;
+}
+logobar nav {
+	float: right;
+}
+.mobile-view {
+	display: none;
+}
+/*
+.expand {
+	display: block;
+}
+*/
+.desktop-view {
+	margin-top: 0px;
+}
+.desktop-view ul li {
+	list-style-type: none;
+	display: inline-block;
+}
+.desktop-view ul li a {
+	padding-top: 13px;
+	padding-bottom: 13px;
+	padding-right: 13px;
+	padding-left: 13px;
+	text-decoration: none;
+	color: #E8E8E8;
+}
+
+.btn-pink {
+	background-color: #F27E9E;
+}
+.btn-pink:hover {
+	background-color: #b55f77;
+}
+.btn-green {
+	background-color: #46A589;
+}
+.btn-green:hover {
+	background-color: #3c8f77;
+}
+/* Header */
+header {
+	text-align: left;
+	display: block;
+/*	height: 702px;*/
+	padding-left: 20px;
+	padding-right: 20px;
+	/*	padding-bottom: 20px;*/
+	margin-top: 20px;
+}
+/*
+header .profileLogo {
+	position: sticky;
+	top: 0;
+	background-color: #2f2f2f;
+}
+*/
+header .profileLogo .logoPlaceholder {
+/*	background-color: rgba(0,0,0,0.70);*/
+/*	width: 960px;*/
+	height: 45px;
+	text-align: left;
+
+/*	padding-top: 20px;*/
+	padding-left: 20px;
+	padding-right: 20px;
+	
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*
+header .logoPlaceholder span {
+	width: 80px;
+	height: 22px;
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(255,255,255,1.00);
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 53px;
+	
+}
+*/
+header .profilePhoto {
+	background-color: rgba(237,237,237,1.00);
+	width: 259px;
+	border-radius: 50%;
+	height: 259px;
+	clear: both;
+}
+header .profilePhoto img {
+/*	width: 200px;*/
+}
+header .profileHeader h1 {
+	font-family: 'Montserrat', sans-serif;
+	color: #73f5cf;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 1;
+/*	padding-top: 20;*/
+	padding-bottom: 0px;
+	margin-bottom: 28px;
+}
+header .profileHeader h3 {
+	font-family: sans-serif;
+	color: #f598b1;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 24px;
+	padding-top: 0px;
+}
+hr {
+	background-color: rgba(208,207,207,1.00);
+	height: 1px;
+}
+header .profileHeader p {
+	font-family: sans-serif;
+	color: #F2F2F2;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.8;
+	overflow-y: auto;
+}
+header .socialNetworkNavBar {
+	text-align: left;
+	display: block;
+	clear: both;
+	padding-top: 28px;
+	padding-left: 25px;
+	padding-bottom: 28px;
+}
+header .socialNetworkNavBar .socialNetworkNav {
+	border-radius: 50%;
+	cursor: pointer;
+	width: 50px;
+}
+header .socialNetworkNavBar .socialNetworkNav img:hover {
+	opacity: 0.5;
+/*	margin-right: 23px;*/
+}
+header .socialNetworkNavBar .socialNetworkNav img {
+	max-width: 60px;
+/*	padding-right: 20px;*/
+}
+/* Main Content sections */
+.mainContent .section1 {
+	display: block;
+}
+.section1 .sectionTitle, .section2 .sectionTitle {
+	font-family: 'Montserrat', sans-serif;
+	color: #f598b1;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.section1 .sectionTitleRule, .section2 .sectionTitleRule {
+	margin: 0 3% 0 0;
+	float: left;
+	clear: both;
+}
+.section1 .sectionTitleRule2, .section2 .sectionTitleRule2 {
+	background-color: rgba(208,207,207,1.00);
+	height: 1px;
+	padding: 0px;
+}
+.mainContent .section1 .section1Content {
+	font-family: ProximaNova;
+	font-size: 14px;
+	font-weight: 100;
+	color: rgba(208,207,207,1.00);
+}
+.mainContent .section1 .section1Content span {
+	color: rgba(146,146,146,1.00);
+	font-family: sans-serif;
+}
+.mainContent .section1 .sectionContentTitle {
+	color: #73f5cf;
+}
+.section2 .sectionContentTitle {
+	font-family: sans-serif;
+	color: #73f5cf;
+	font-size: 18px;
+	font-weight: 700;
+	margin-top: 30px;
+}
+.section2 .sectionContentSubTitle {
+	font-family: sans-serif;
+	color: rgba(208,207,207,1.00);
+	font-size: 14px;
+	font-weight: 600;
+}
+.section2 .sectionContent {
+	font-family: sans-serif;
+	color: rgba(208,207,207,1.00);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.8;
+}
+.section2 .section2Content {
+	color: rgba(208,207,207,1.00);
+	font-size: 14px
+}
+.section2 .section2Content span{
+	color: #f598b1;
+	font-family: sans-serif;
+	font-weight: 600;
+}
+.mainContent {
+	display: block;
+}
+.mainContent .externalResourcesNav .externalResources {
+	background-color: #347c67;
+	display: inline-block;
+	text-align: center;
+	margin-top: 0px;
+	padding-top: 2%;
+	cursor: pointer;
+}
+.mainContent .externalResourcesNav .externalResources:hover {
+	background-color: #235345;
+}
+.externalResourcesNav .externalResources a {
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(255,255,255,1.00);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	text-decoration: none;
+}
+.stretch {
+	content: '';
+	display: inline-block;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+/* Footer */
+footer .footerDisclaimer {
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: rgba(104,103,103,1.00);
+	font-weight: 700;
+}
+footer .footerDisclaimer span {
+	color: rgba(181,178,178,1.00);
+	font-weight: 400;
+}
+footer .footerNote {
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: rgba(104,103,103,1.00);
+	font-weight: 700;
+}
+footer .footerNote span {
+	color: rgba(181,178,178,1.00);
+	font-weight: 400;
+}
+/*
+footer .externalResourcesNav .externalResources {
+	background-color: #F27E9E;
+	display: inline-block;
+	text-align: center;
+	width: 140px;
+	height: 30px;
+	margin-top: 0px;
+	padding-top: 1.5%;
+	cursor: pointer;
+}
+footer .externalResourcesNav .externalResources:hover {
+	background-color: #b55f77;
+*/
+
+/* Media query for Mobile devices*/
+@media only screen and (min-width : 285px) and (max-width : 768px) {
+.mobile-view {
+	display: block;
+	float: right;
+	margin-top: 8px;
+}
+.desktop-view {
+	display: none;
+	text-align: right;
+	float: right;
+}
+.expand {
+	display: block;
+}
+/*
+header a img {
+	width: 83%;
+	height: 83%;
+}
+*/
+.desktop-view ul li {
+	display: block;
+	margin-bottom: 25px;
+	text-align: right;
+	margin-top: 8px;
+}
+	
+	/* Header */
+header {
+	width: 100%;
+	float: none;
+}
+header .profileLogo .logoPlaceholder {
+	display: inline-block;
+}
+header .profilePhoto {
+	display: inline-block;
+}
+header .profileHeader {
+	text-align: center;
+	margin-top: 10%;
+}
+header .profileHeader h1 {
+	font-family: 'Montserrat', sans-serif;
+	color: #57B89B;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 1;
+	padding-top: 12px;
+	padding-bottom: 0px;
+	margin-bottom: 28px;
+	margin-right: 5%;
+	margin-top: -28px;
+}
+header .profileHeader p {
+	text-align: justify;
+	margin-right: 10%;
+	margin-bottom: 10%;
+	/*FIX SPACING HERE?*/
+	
+}
+header .socialNetworkNavBar {
+	text-align: left;
+	display: block;
+	margin-top: 20px;
+	clear: both;
+	margin-bottom: 15%;
+}
+header .socialNetworkNavBar .socialNetworkNav {
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+/*	margin-right: 23px;*/
+}
+/* Main content sections */
+.mainContent .section1 {
+	text-align: center;
+	margin-bottom: 10%;
+}
+.section1 .section1Title, .section2 .section1Title {
+	text-align: center;
+}
+.section1 .sectionTitleRule, .section2 .sectionTitleRule {
+	width: 100%;
+}
+.section1 .sectionTitleRule2, .section2 .sectionTitleRule2 {
+	display: none;
+}
+.mainContent .section1 .section1Content {
+	display: inline-block;
+	text-align: left;
+	font-family: sans-serif;
+	text-align: justify;
+}
+.mainContent .section2 {
+	display: block;
+	text-align: center;
+}
+.section2 .section2Content {
+	margin-top: 10%;
+	text-align: justify;
+	margin-bottom: 10%;
+}
+.mainContent .externalResourcesNav {
+	margin-bottom: 10%;
+}
+.mainContent .externalResourcesNav .externalResources {
+	width: 140px;
+	height: 30px;
+	padding-top: 1.5%;
+	margin-bottom: 3%;
+}
+/* Footer */
+footer {
+	display: block;
+	text-align: center;
+	font-family: sans-serif;
+}
+}
+
+/* Media Query for Tablets */
+@media only screen and (min-width : 769px) and (max-width : 1024px) {
+/* Header */
+header {
+	width: 100%;
+	float: none;
+}
+header .profileLogo .logoPlaceholder {
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+}
+header .profilePhoto {
+	float: left;
+	clear: both;
+	margin-right: 3%;
+/*	margin-top: 5%;*/
+	margin-bottom: 28px;
+}
+header .profileHeader {
+	text-align: left;
+	margin-top: 7%;
+	margin-right: 10%;
+}
+header .profileHeader h1 {
+	
+}
+header .socialNetworkNavBar .socialNetworkNav {
+	width: 72px;
+	max-width: 72px;
+	height: auto;
+	display: inline-block;
+/*	margin-right: 10px;*/
+}
+header .socialNetworkNavBar .socialNetworkNav img {
+/*
+	max-width: 60px;
+	height: auto;
+*/
+	padding-right: 10px;
+/*	display: inline-block;*/
+/*	margin-right: 10%;*/
+}
+/* Main content and sections */
+.section1 .section1Title, .section2 .section1Title {
+	text-align: center;
+}
+.section1 .sectionTitleRule, .section2 .sectionTitleRule {
+	width: 100%;
+}
+.section1 .sectionTitleRule2, .section2 .sectionTitleRule2 {
+	display: none;
+}
+.mainContent .section1 .section1Content {
+	display: block;
+	margin: 0% 0% 0% 20%;
+	font-family: sans-serif;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.mainContent .section2 {
+	clear: both;
+}
+.section2 .section2Content {
+	padding: 0px;
+	margin-left: 20%;
+	font-family: sans-serif;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.mainContent .externalResourcesNav {
+	margin-left: 20%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: left;
+	padding-top: 0px;
+	clear: both;
+}
+.mainContent .externalResourcesNav .externalResources {
+	width: 140px;
+	height: 30px;
+	padding-top: 1.5%;
+/*	margin-top: 5%;*/
+}
+/* Footer */
+footer .footerDisclaimer {
+	float: left;
+	margin-left: 3%;
+	font-family: sans-serif;
+}
+footer .footerNote {
+	float: right;
+	margin-right: 3%;
+	font-family: sans-serif;
+}
+}
+
+/* Desktops and laptops  */
+@media only screen and (min-width:1025px) {
+/* Header */
+header .profileLogo .logoPlaceholder {
+	float: left;
+	margin-bottom: 50px;
+/*	margin-top: 0px;*/
+}
+header .profilePhoto {
+	float: left;
+	clear: both;
+	margin-right: 3%;
+}
+header .profileHeader {
+	text-align: left;
+/*	padding-top: 10%;*/
+}
+header .socialNetworkNavBar .socialNetworkNav {
+	width: 74px;
+	height: 74px;
+	display: inline-block;
+/*	margin-right: 23px;*/
+}
+/* Main content sections */
+.section1 .sectionTitleRule, .section2 .sectionTitleRule {
+	width: 22.5%;
+}
+.mainContent .section1 .section1Content {
+	display: block;
+	margin-top: 0%;
+	margin-right: 0%;
+	margin-left: 26%;
+	margin-bottom: 0%;
+	font-family: sans-serif;
+	color: #F2F2F2;
+}
+.mainContent .section2 {
+	clear: both;
+}
+.section2 .section2Content {
+	padding: 0px;
+	margin-left: 26%;
+	font-family: sans-serif;
+}
+.mainContent .externalResourcesNav {
+	margin-left: 26%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: left;
+	padding-top: 0px;
+	clear: both;
+}
+.mainContent .externalResourcesNav .externalResources {
+	width: 140px;
+	height: 30px;
+	padding-top: 1.5%;
+}
+/* Footer */
+footer .footerDisclaimer {
+	float: left;
+	margin-left: 3%;
+	font-family: sans-serif;
+}
+footer .footerNote {
+	float: right;
+	margin-right: 3%;
+	font-family: sans-serif;
+}
+}
