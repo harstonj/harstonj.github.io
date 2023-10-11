@@ -177,19 +177,19 @@ header .socialNetworkNavBar .socialNetworkNav img {
 .mainContent .section1 {
 	display: block;
 }
-.section1 .sectionTitle, .section2 .sectionTitle {
+.section1 .sectionTitle, .section2 .sectionTitle, .section3 .sectionTitle {
 	font-family: 'Montserrat', sans-serif;
 	color: #f598b1;
 	font-size: 18px;
 	font-weight: 700;
 	text-transform: uppercase;
 }
-.section1 .sectionTitleRule, .section2 .sectionTitleRule {
+.section1 .sectionTitleRule, .section2 .sectionTitleRule, .section3 .sectionTitleRule {
 	margin: 0 3% 0 0;
 	float: left;
 	clear: both;
 }
-.section1 .sectionTitleRule2, .section2 .sectionTitleRule2 {
+.section1 .sectionTitleRule2, .section2 .sectionTitleRule2, .section3 .sectionTitleRule2 {
 	background-color: rgba(208,207,207,1.00);
 	height: 1px;
 	padding: 0px;
@@ -236,6 +236,32 @@ header .socialNetworkNavBar .socialNetworkNav img {
 	font-family: sans-serif;
 	font-weight: 600;
 }
+
+.section3 .sectionContentTitle {
+	font-family: sans-serif;
+	color: #73f5cf;
+	font-size: 18px;
+	font-weight: 700;
+	margin-top: 30px;
+}
+.section3 .sectionContentSubTitle {
+	font-family: sans-serif;
+	color: rgba(208,207,207,1.00);
+	font-size: 14px;
+	font-weight: 600;
+}
+.section3 .sectionContent {
+	font-family: sans-serif;
+	color: rgba(208,207,207,1.00);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.8;
+}
+.section3 .section3Content {
+	color: rgba(208,207,207,1.00);
+	font-size: 14px
+}
+
 .mainContent {
 	display: block;
 }
@@ -358,13 +384,13 @@ header a img {
 	height: 83%;
 }
 */
-.desktop-view ul li {
+.desktop-view ul li{
 	display: block;
 	margin-bottom: 25px;
 	text-align: right;
 	margin-top: 8px;
 }
-	
+
 	/* Header */
 header {
 	width: 100%;
@@ -374,7 +400,9 @@ header .profileLogo .logoPlaceholder {
 	display: inline-block;
 }
 header .profilePhoto {
-	display: inline-block;
+/*	display: inline-block;*/
+	margin-left: auto;
+	margin-right: auto;
 }
 header .profileHeader {
 	text-align: center;
@@ -393,11 +421,14 @@ header .profileHeader h1 {
 	margin-top: -28px;
 }
 header .profileHeader p {
-	text-align: justify;
+	text-align: left;
 	margin-right: 10%;
 	margin-bottom: 10%;
 	/*FIX SPACING HERE?*/
 	
+}
+header .profileHeader hr {
+	margin-right: 3%;
 }
 header .socialNetworkNavBar {
 	text-align: center;
@@ -421,20 +452,20 @@ header .socialNetworkNavBar .socialNetworkNav {
 	text-align: center;
 	margin-bottom: 10%;
 }
-.section1 .section1Title, .section2 .section1Title {
+.section1 .section1Title, .section2 .section1Title, .section3 .section1Title {
 	text-align: center;
 }
-.section1 .sectionTitleRule, .section2 .sectionTitleRule {
+.section1 .sectionTitleRule, .section2 .sectionTitleRule, .section3 .sectionTitleRule {
 	width: 100%;
 }
-.section1 .sectionTitleRule2, .section2 .sectionTitleRule2 {
+.section1 .sectionTitleRule2, .section2 .sectionTitleRule2, .section3 .sectionTitleRule2 {
 	display: none;
 }
 .mainContent .section1 .section1Content {
-	display: inline-block;
+	margin-top: 10%;
+	display: block;
 	text-align: left;
 	font-family: sans-serif;
-	text-align: justify;
 }
 .mainContent .section2 {
 	display: block;
@@ -442,7 +473,16 @@ header .socialNetworkNavBar .socialNetworkNav {
 }
 .section2 .section2Content {
 	margin-top: 10%;
-	text-align: justify;
+	text-align: left;
+	margin-bottom: 10%;
+}
+.mainContent .section3 {
+	display: block;
+	text-align: center;
+}
+.section3 .section3Content {
+	margin-top: 10%;
+	text-align: left;
 	margin-bottom: 10%;
 }
 .mainContent .externalResourcesNav {
@@ -507,13 +547,13 @@ header .socialNetworkNavBar .socialNetworkNav img {
 /*	margin-right: 10%;*/
 }
 /* Main content and sections */
-.section1 .section1Title, .section2 .section1Title {
+.section1 .section1Title, .section2 .section1Title, .section3 .section1Title {
 	text-align: center;
 }
-.section1 .sectionTitleRule, .section2 .sectionTitleRule {
+.section1 .sectionTitleRule, .section2 .sectionTitleRule, .section3 .sectionTitleRule {
 	width: 100%;
 }
-.section1 .sectionTitleRule2, .section2 .sectionTitleRule2 {
+.section1 .sectionTitleRule2, .section2 .sectionTitleRule2, .section3 .sectionTitleRule2 {
 	display: none;
 }
 .mainContent .section1 .section1Content {
@@ -527,6 +567,16 @@ header .socialNetworkNavBar .socialNetworkNav img {
 	clear: both;
 }
 .section2 .section2Content {
+	padding: 0px;
+	margin-left: 20%;
+	font-family: sans-serif;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.mainContent .section3 {
+	clear: both;
+}
+.section3 .section3Content {
 	padding: 0px;
 	margin-left: 20%;
 	font-family: sans-serif;
@@ -594,7 +644,7 @@ header .socialNetworkNavBar .socialNetworkNav {
 /*	margin-right: 23px;*/
 }
 /* Main content sections */
-.section1 .sectionTitleRule, .section2 .sectionTitleRule {
+.section1 .sectionTitleRule, .section2 .sectionTitleRule, .section3 .sectionTitleRule {
 	width: 22.5%;
 }
 .mainContent .section1 .section1Content {
@@ -610,6 +660,14 @@ header .socialNetworkNavBar .socialNetworkNav {
 	clear: both;
 }
 .section2 .section2Content {
+	padding: 0px;
+	margin-left: 26%;
+	font-family: sans-serif;
+}
+.mainContent .section3 {
+	clear: both;
+}
+.section3 .section3Content {
 	padding: 0px;
 	margin-left: 26%;
 	font-family: sans-serif;
@@ -640,4 +698,7 @@ footer .footerNote {
 	margin-right: 3%;
 	font-family: sans-serif;
 }
+	footer {
+		margin-top: 5%;
+	}
 }
